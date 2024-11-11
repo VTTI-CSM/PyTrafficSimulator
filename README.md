@@ -37,11 +37,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![trafficSimulator screenshot][product-screenshot]](https://example.com)
+[![PytrafficSimulator screenshot][product-screenshot]](https://example.com)
 
-**trafficSimulator** is a Python project that aims to provide a flexible and user-friendly platform for creating and testing traffic scenarios and analyzing their outcomes.
+**PytrafficSimulator** is a Python project that aims to provide a flexible and user-friendly platform for creating and testing traffic scenarios and analyzing their outcomes.
 
-**trafficSimulator** is suitable for students, researchers and practitioners who are interested in studying traffic phenomena and finding solutions for traffic problems.
+**PytrafficSimulator** is suitable for students, researchers and practitioners who are interested in studying traffic phenomena and finding solutions for traffic problems.
 
 <!-- To learn more about how the project was created check out this [article](https://towardsdatascience.com/simulating-traffic-flow-in-python-ee1eab4dd20f) on Medium. -->
 
@@ -59,9 +59,9 @@
 ### Based on:
 * Treiber, Martin; Hennecke, Ansgar; Helbing, Dirk (2000),<br>"**Congested traffic states in empirical observations and microscopic simulations**", Physical Review E, 62 (2): 1805–1824, [arXiv:cond-mat/0002177](https://arxiv.org/abs/cond-mat/0002177), [Bibcode:2000PhRvE..62.1805T](https://ui.adsabs.harvard.edu/abs/2000PhRvE..62.1805T), [doi:10.1103/PhysRevE.62.1805](https://doi.org/10.1103%2FPhysRevE.62.1805), [PMID 11088643](https://pubmed.ncbi.nlm.nih.gov/11088643), [S2CID 1100293](https://api.semanticscholar.org/CorpusID:1100293)
 
-* Fadhloun- Rakha Model.
+* Fadhloun-Rakha Car Following Model.
 
-* Van-Aerde Car Following Model.
+* Van-Aerde Macroscopic Model.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,7 +82,7 @@ pip install PyTrafficSimulator
 ```
 
 #### Installing from source
-1. `git clone https://github.com/akshafik/PyTrafficSimulator`
+1. `git clone https://github.com/VTTI-CSM/PyTrafficSimulator`
 2. `cd PyTrafficSimulator`
 3. `pip install -e .`
 
@@ -98,7 +98,7 @@ You can import the module using:
 import PyTrafficSimulator as pts
 ```
 
-_For more examples, please refer to the [Examples](https://github.com/akshafik/PyTrafficSimulator/tree/main/examples) folder._
+_For more examples, please refer to the [Examples](https://github.com/VTTI-CSM/PyTrafficSimulator/examples) folder._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +122,7 @@ To be completed.
 <!-- LICENSE
 ## License
 
-Distributed under the MIT License. See [`LICENSE`](https://github.com/PyTrafficSimulator/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/VTTI-CSM/PyTrafficSimulator/LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
