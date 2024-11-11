@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import numpy as np
 dir = os.path.abspath('')
-dir = dir[slice(0,dir.find('PyTrafficSimulator_CSM') + len('PyTrafficSimulator_CSM'),1)]
+dir = dir[slice(0,dir.find('PyTrafficSimulator') + len('PyTrafficSimulator'),1)]
 sys.path.append(dir)
 from src import *
 sys.dont_write_bytecode = True
@@ -79,9 +79,7 @@ seg20 = sim.create_quadratic_bezier_curve({'id': 20, 'start_link':seg4, 'end_lin
 
 # Optimal FT  timing
 volume_factor = 1.0
-
 # [SBL, NBT, WBT, EBL, SBT, NBL, WBL, EBT]
-
 max_green = [19, 86, 60, 46, 55, 38, 65, 71]
 min_green = [5, 15, 15, 5, 15, 5, 5, 15]
 

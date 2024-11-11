@@ -1,7 +1,7 @@
 import sys
 import os
 dir = os.path.abspath('')
-dir = dir[slice(0,dir.find('PyTrafficSimulator_CSM') + len('PyTrafficSimulator_CSM'),1)]
+dir = dir[slice(0,dir.find('PyTrafficSimulator') + len('PyTrafficSimulator'),1)]
 sys.path.append(dir)
 from src import *
 sys.dont_write_bytecode = True

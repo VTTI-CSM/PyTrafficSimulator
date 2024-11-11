@@ -16,7 +16,7 @@ import pickle
 from matplotlib import pyplot as plt
 from sklearn.metrics import r2_score, mean_absolute_error, mean_absolute_percentage_error
 directory = os.path.abspath('')
-directory = directory[slice(0,directory.find('PyTrafficSimulator_CSM') + len('PyTrafficSimulator_CSM'),1)]
+directory = directory[slice(0,directory.find('PyTrafficSimulator') + len('PyTrafficSimulator'),1)]
 
 class Simulation:
     def __init__(self, duration, random_seed, resolution=1/10, destroy=False, FR_param = [0.74375, 1.0, 0.1]):
@@ -134,7 +134,7 @@ class Simulation:
 
         #save to csv
         dir = os.path.abspath('')
-        dir = dir[slice(0,dir.find('PyTrafficSimulator_CSM') + len('PyTrafficSimulator_CSM'),1)]
+        dir = dir[slice(0,dir.find('PyTrafficSimulator') + len('PyTrafficSimulator'),1)]
 
         print(self.traj_df)
         self.traj_df.to_pickle(dir + r'\output\Trajectory.pkl')
@@ -152,7 +152,7 @@ class Simulation:
         
         #save to csv
         dir = os.path.abspath('')
-        dir = dir[slice(0,dir.find('PyTrafficSimulator_CSM') + len('PyTrafficSimulator_CSM'),1)]
+        dir = dir[slice(0,dir.find('PyTrafficSimulator') + len('PyTrafficSimulator'),1)]
 
         self.detector_df.to_csv(dir + r'\output\detector.csv', index=False)
     
@@ -168,7 +168,7 @@ class Simulation:
         
         #save to csv
         dir = os.path.abspath('')
-        dir = dir[slice(0,dir.find('PyTrafficSimulator_CSM') + len('PyTrafficSimulator_CSM'),1)]
+        dir = dir[slice(0,dir.find('PyTrafficSimulator') + len('PyTrafficSimulator'),1)]
 
         self.signal_df.to_csv(dir + r'\output\\' + str(file_name), index=False)
 
@@ -180,7 +180,7 @@ class Simulation:
         
         #save to csv
         dir = os.path.abspath('')
-        dir = dir[slice(0,dir.find('PyTrafficSimulator_CSM') + len('PyTrafficSimulator_CSM'),1)]
+        dir = dir[slice(0,dir.find('PyTrafficSimulator') + len('PyTrafficSimulator'),1)]
 
         self.vehno_df.to_csv(dir + r'\output\\' + str(file_name), index=False)
     
@@ -192,7 +192,7 @@ class Simulation:
         
         #save to csv
         dir = os.path.abspath('')
-        dir = dir[slice(0,dir.find('PyTrafficSimulator_CSM') + len('PyTrafficSimulator_CSM'),1)]
+        dir = dir[slice(0,dir.find('PyTrafficSimulator') + len('PyTrafficSimulator'),1)]
 
         self.vehno_df.to_csv(dir + r'\output\\' + str(file_name), index=False)
 
@@ -207,7 +207,7 @@ class Simulation:
         
         #save to csv
         dir = os.path.abspath('')
-        dir = dir[slice(0,dir.find('PyTrafficSimulator_CSM') + len('PyTrafficSimulator_CSM'),1)]
+        dir = dir[slice(0,dir.find('PyTrafficSimulator') + len('PyTrafficSimulator'),1)]
 
         self.queue_df.to_csv(dir + r'\output\\' + str(file_name), index=False)
 

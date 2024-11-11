@@ -1,7 +1,7 @@
 import sys
 import os
 dir = os.path.abspath('')
-dir = dir[slice(0,dir.find('PyTrafficSimulator_CSM') + len('PyTrafficSimulator_CSM'),1)]
+dir = dir[slice(0,dir.find('PyTrafficSimulator') + len('PyTrafficSimulator'),1)]
 sys.path.append(dir)
 from src import *
 sys.dont_write_bytecode = True
@@ -68,23 +68,8 @@ seg18 = sim.create_quadratic_bezier_curve({'id': 18, 'start_link':seg2, 'end_lin
 seg19 = sim.create_quadratic_bezier_curve({'id': 19, 'start_link':seg3, 'end_link': seg6, 'order_start': 0, 'order_end': 0, 'lane_width': lane_width, 'has_marking': False, 'link_type': 'connector', 'u_f': u_f, 'u_c': u_c, 'q_c': q_c, 'k_j':k_j})
 seg20 = sim.create_quadratic_bezier_curve({'id': 20, 'start_link':seg4, 'end_link': seg7, 'order_start': 0, 'order_end': 0, 'lane_width': lane_width, 'has_marking': False, 'link_type': 'connector', 'u_f': u_f, 'u_c': u_c, 'q_c': q_c, 'k_j':k_j})
 
-# N/S LT - N/S TH+R - E/W LT - E/W TH+R
 
-# Y3 AR0
-# # Webster
-# pre_timed_timing = [7, 32, 14, 46, 14, 25, 19, 41]      # Reference: Skabardonis, Alexander, Progression Through a Series of Intersections with Traffic Actuated Controllers, Volume 2 User’s Guide, FHWA RD-89-133, Washington, D.C., October 1998
-# max_green = [1.0*(x-3) for x in pre_timed_timing]
-# # LDR
-# pre_timed_timing = [6, 24, 11, 35, 11, 19, 15, 31]      # Reference: Skabardonis, Alexander, Progression Through a Series of Intersections with Traffic Actuated Controllers, Volume 2 User’s Guide, FHWA RD-89-133, Washington, D.C., October 1998
-# max_green = [1.0*(x-3) for x in pre_timed_timing]
-
-
-# Y3 AR1
-# Webster
 pre_timed_timing = [12, 54, 24, 61, 24, 43, 32, 55] 
-# # LDR
-# pre_timed_timing = [9, 32, 16, 46, 15, 26, 20, 42]      # Reference: Skabardonis, Alexander, Progression Through a Series of Intersections with Traffic Actuated Controllers, Volume 2 User’s Guide, FHWA RD-89-133, Washington, D.C., October 1998
-
 max_green = [1.0*(x-3) for x in pre_timed_timing]
 min_green = [5, 15, 5, 15, 5, 15, 5, 15]
 sim.create_signal_nema({'id': 1,
@@ -155,17 +140,6 @@ sim.add_vehicle_generator(vg1)
 sim.add_vehicle_generator(vg2)
 sim.add_vehicle_generator(vg3)
 sim.add_vehicle_generator(vg4)
-
-
-# v1 = Vehicle({'path': [1, 9, 6], 'x': 0, 'v_0':11.11})
-# v2 = Vehicle({'path': [1, 13, 7], 'x': 10, 'v_0':11.11})
-# v3 = Vehicle({'path': [1, 17, 8], 'x': 0, 'v_0':11.11})
-# sim.add_vehicle(v1)
-# sim.add_vehicle(v2)
-# sim.add_vehicle(v3)
-
-# v = Vehicle({'path': [0]})
-# sim.add_vehicle(v)
 
 win = Window(sim)
 win.initialize(is_running=True)
