@@ -78,12 +78,12 @@ Requires Python 3.7+.
 
 #### Using PIP
 ```sh
-pip install PyTrafficSimulator_CSM
+pip install PyTrafficSimulator
 ```
 
 #### Installing from source
-1. `git clone https://github.com/akshafik/PyTrafficSimulator_CSM`
-2. `cd PyTrafficSimulator_CSM`
+1. `git clone https://github.com/akshafik/PyTrafficSimulator`
+2. `cd PyTrafficSimulator`
 3. `pip install -e .`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -95,7 +95,7 @@ pip install PyTrafficSimulator_CSM
 
 You can import the module using:
 ```python
-import PyTrafficSimulator_CSM as pts
+import PyTrafficSimulator as pts
 ```
 
 _For more examples, please refer to the [Examples](https://github.com/akshafik/PyTrafficSimulator/tree/main/examples) folder._
@@ -122,7 +122,7 @@ To be completed.
 <!-- LICENSE
 ## License
 
-Distributed under the MIT License. See [`LICENSE`](https://github.com/PyTrafficSimulator_CSM/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/PyTrafficSimulator/LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -135,7 +135,7 @@ Amr Shafik
 * LinkedIn: [@AmrShafik][linkedin-url]
 * Email: ashafik@vt.edu
 
-Project Link: [https://github.com/akshafik/PyTrafficSimulator_CSM](https://github.com/akshafik/PyTrafficSimulator_CSM)
+Project Link: [https://github.com/akshafik/PyTrafficSimulator](https://github.com/akshafik/PyTrafficSimulator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
