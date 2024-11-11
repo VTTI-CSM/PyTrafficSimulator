@@ -98,7 +98,7 @@ You can import the module using:
 import PyTrafficSimulator as pts
 ```
 
-_For more examples, please refer to the [Examples](https://github.com/VTTI-CSM/PyTrafficSimulator/examples) folder._
+_For more examples, please refer to the [Examples](https://github.com/VTTI-CSM/PyTrafficSimulator/tree/main/examples) folder._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,12 +119,12 @@ To be completed.
 
 
 
-<!-- LICENSE
+LICENSE
 ## License
 
-Distributed under the MIT License. See [`LICENSE`](https://github.com/VTTI-CSM/PyTrafficSimulator/LICENSE) for more information.
+Distributed under the LGPL License. See [`LICENSE`](https://github.com/VTTI-CSM/PyTrafficSimulator/tree/main/LICENSE) for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -135,7 +135,7 @@ Amr Shafik
 * LinkedIn: [@AmrShafik][linkedin-url]
 * Email: ashafik@vt.edu
 
-Project Link: [https://github.com/akshafik/PyTrafficSimulator](https://github.com/akshafik/PyTrafficSimulator)
+Project Link: [https://github.com/VTTI-CSM/PyTrafficSimulator](https://github.com/VTTI-CSM/PyTrafficSimulator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
