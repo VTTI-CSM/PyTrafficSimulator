@@ -74,7 +74,7 @@
 
 Requires Python 3.7+.
 
-### Installation
+<!-- ### Installation
 
 #### Using PIP
 ```sh
@@ -84,7 +84,7 @@ pip install PyTrafficSimulator
 #### Installing from source
 1. `git clone https://github.com/VTTI-CSM/PyTrafficSimulator`
 2. `cd PyTrafficSimulator`
-3. `pip install -e .`
+3. `pip install -e .` -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
