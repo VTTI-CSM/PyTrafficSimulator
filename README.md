@@ -39,9 +39,13 @@
 
 [![PytrafficSimulator screenshot][product-screenshot]](https://example.com)
 
-**PytrafficSimulator** is a Python project that aims to provide a flexible and user-friendly platform for creating and testing traffic scenarios and analyzing their outcomes.
+**PytrafficSimulator** is a Python-based traffic simulation tool designed for students, researchers, and practitioners interested in modeling traffic scenarios. It allows for creating and testing various traffic conditions to analyze their effects on vehicle flow, delays, and overall system performance.
 
-**PytrafficSimulator** is suitable for students, researchers and practitioners who are interested in studying traffic phenomena and finding solutions for traffic problems.
+**Key Features:**
+* **Customizable Traffic Scenarios:** Create diverse traffic setups with different vehicle behaviors.
+* **User-Friendly Interface:** Intuitive API for easy integration into existing projects.
+* **Performance Analysis:** Detailed output metrics for evaluating traffic dynamics.
+
 
 <!-- To learn more about how the project was created check out this [article](https://towardsdatascience.com/simulating-traffic-flow-in-python-ee1eab4dd20f) on Medium. -->
 
@@ -93,10 +97,10 @@ pip install PyTrafficSimulator
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-You can import the module using:
+<!-- You can import the module using:
 ```python
 import PyTrafficSimulator as pts
-```
+``` -->
 
 _For more examples, please refer to the [Examples](https://github.com/VTTI-CSM/PyTrafficSimulator/tree/main/examples) folder._
 
@@ -105,14 +109,16 @@ _For more examples, please refer to the [Examples](https://github.com/VTTI-CSM/P
 <!-- DOCUMENTATION -->
 ## Documentation
 
-To be completed.
+Comprehensive documentation is currently under development. Stay tuned for updates!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
 
-To be completed.
+* Complete documentation and tutorials.
+* Add support for real-time traffic data integration.
+* Implement GPU acceleration for faster simulations
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +128,7 @@ To be completed.
 LICENSE
 ## License
 
-Distributed under the LGPL License. See [`LICENSE`](https://github.com/VTTI-CSM/PyTrafficSimulator/tree/main/LICENSE) for more information.
+Distributed under the **LGPL License**. See [`LICENSE`](https://github.com/VTTI-CSM/PyTrafficSimulator/tree/main/LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,6 +140,9 @@ Distributed under the LGPL License. See [`LICENSE`](https://github.com/VTTI-CSM/
 Amr Shafik
 * LinkedIn: [@AmrShafik][linkedin-url]
 * Email: ashafik@vt.edu
+
+Prof. Hesham  Rakha
+* Email: hrakha@vt.edu
 
 Project Link: [https://github.com/VTTI-CSM/PyTrafficSimulator](https://github.com/VTTI-CSM/PyTrafficSimulator)
 
